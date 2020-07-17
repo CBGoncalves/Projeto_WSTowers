@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.SplashScreen">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+             <!--Image-->
+            <Source x:key="ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="ImageMarg">"100,310,100,30"</Margin>
+            <!--ActivityIndicator-->
+            <IsRunning x:key="ActivIndiIsRunning">"true"</IsRunning>
+            <Color x:key="ActivIndiColor">"Snow"</Color>
+            
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            >
+            <Image
+            Source="{StaticResource ImageSour}"
+            WidthRequest="{StaticResource ImageWidthReq}" 
+            Margin="{StaticResource ImageMarg}"
+            />
+            <ActivityIndicator 
+                IsRunning="{StaticResource ActivIndiIsRunning}"
+                Color="{StaticResource ActivIndiColor}"
+             />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

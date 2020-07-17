@@ -1,0 +1,54 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:WSTowers.Views;assembly=WSTowers" 
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.PrincipalView">
+    
+    <ContentPage Title="Jogos">
+        <ContentPage.Content>
+            <StackLayout BackgroundColor="#363636">
+                <ListView ItemsSource="{Binding Jogos}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout
+                                Orientation="Horizontal"
+                                >
+                                    <Image Source="LogoSaoPaulo.png"/>
+                                    <Label
+                                    TextColor="#eaeaea"
+                                    Text="{Binding timeCasa}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+
+                                    <Label
+                                    TextColor="#eaeaea"
+                                    Text="X"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+
+                                    <Label
+                                    TextColor="#eaeaea"
+                                    Text="{Binding timeVisitante}"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                                    <Image Source="LogoGoias.png"/>
+                                </StackLayout>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <local:SobreView/>
+
+
+</TabbedPage>

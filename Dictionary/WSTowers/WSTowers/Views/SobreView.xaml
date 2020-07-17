@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.SobreView">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+            <Padding x:key="StackLayoutPadd">"20"</Padding>
+            <spacing x:key="StackLayoutSpac">"20"</spacing>
+            
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            Spacing="20"
+            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            >
+
+            <Image Source="WS_Towers.png" 
+                   WidthRequest="250" 
+                   Margin="50,160,50,0"
+            />
+            <Label 
+                TextColor="White"
+                Text="       A WSTowers, é uma empresa tradicional no ramo de gestão esportivo, que vem revolucionando o mercado de entretenimento. Além disso, é referência no âmbito nacional, certificada com o Selo de Qualidade ABEOC Brasil (Associação Brasileira de Empresas de Eventos) e diversas premiações em sua história. A expertise de realizar eventos com equipes especializadas, alto índice de satisfação dos clientes, só mostram a importância da WSTowers na sociedade."
+                XAlign="Center"
+                FontSize="20"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

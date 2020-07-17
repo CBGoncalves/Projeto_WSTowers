@@ -1,0 +1,61 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.PrincipalView">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <Orientation x key="StackLayoutOrient">"Horizontal"</Orientation>
+            <!--Image-->
+            <Source x:key="ImageSPFCSour">"LogoSaoPaulo.png"</Source>
+            <Source x:key="ImageGECSour">"LogoGoias.png"</Source>
+            <!--Label-->
+            <HorizontalOptions x key="LabelCasaHorizOptions">"StartAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="LabelVSHorizOptions">"CenterAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="LabelVisitanteHorizOptions">"EndAndExpand"</HorizontalOptions>
+            <VerticalOptons x key="LabelVertOptions">CenterAndExpand</VerticalOptons>
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Jogos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                Orientation= "{StaticResource StackLayoutOrient}"
+                                >
+                                <Image 
+                                    Source="{StaticResource ImageSPFCSour}"
+                                <Label
+                                    Text="{Binding timeCasa}"
+                                    HorizontalOptions="{StaticResource LabelCasaHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                />
+                                <Label
+                                    Text="X"
+                                    HorizontalOptions="{StaticResource LabelVSHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                />
+                                
+                                <Label
+                                    Text="{Binding timeVisitante}"
+                                    HorizontalOptions="{StaticResource LabelVisitanteHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                />
+                                <Image 
+                                    Source="{StaticResource ImageGECSour}"
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
