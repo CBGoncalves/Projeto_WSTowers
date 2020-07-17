@@ -9,72 +9,72 @@
     <ContentView.Resource>
         <Resource.Dictionary>
             <!--StackLayout-->
-            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
-            <Padding x:key="StackLayoutPadd">"20"</Padding>
-            <spacing x:key="StackLayoutSpac">"20"</spacing>
+            <BackgroundColor x:key="LV_StackLayoutBgColor">"#363636"</BackgroundColor>
+            <Padding x:key="LV_StackLayoutPadd">"20"</Padding>
+            <spacing x:key="LV_StackLayoutSpac">"20"</spacing>
             <!--Image-->
-            <Source x:key="ImageSour">"WS_Towers.png"</Source>
-            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
-            <Margin x key="ImageMarg">"50,160,50,0"</Margin>
+            <Source x:key="LV_ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="LV_ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="LV_">"50,160,50,0"</Margin>
             <!--Entry-->
-            <PlaceholderColor x:key="EntryPhColor">"#c2c2c2"</PlaceholderColor>
-            <VerticalOptions x key="EntryVertOptions">"Center"</VerticalOptions>
-            <HorizontalOptions x key="EntryHorizOptions">"FillAndExpand"</HorizontalOptions>
-            <Margin x key="EntryMarg">"50,20,50,0"</Margin>
-            <IsPassword x key="EntryIsPass">True</IsPassword>
+            <PlaceholderColor x:key="LV_EntryPhColor">"#c2c2c2"</PlaceholderColor>
+            <VerticalOptions x key="LV_EntryVertOptions">"Center"</VerticalOptions>
+            <HorizontalOptions x key="LV_EntryHorizOptions">"FillAndExpand"</HorizontalOptions>
+            <Margin x key="LV_EntryMarg">"50,20,50,0"</Margin>
+            <IsPassword x key="LV_EntryIsPass">True</IsPassword>
             <!--Button1 (Entrar)-->
-            <BackgroundColor x:key="Button1BgColor">"#8a05be"</BackgroundColor>
-            <TextColor x:key="Button1TxtColor">"White"</TextColor>
-            <CornerRadius  x:key="Button1CornRad">10</CornerRadius>
-            <Margin x key="Button1Marg">"115,0,115,0"</Margin>
+            <BackgroundColor x:key="LV_Button1BgColor">"#8a05be"</BackgroundColor>
+            <TextColor x:key="LV_Button1TxtColor">"White"</TextColor>
+            <CornerRadius  x:key="LV_Button1CornRad">10</CornerRadius>
+            <Margin x key="LV_Button1Marg">"115,0,115,0"</Margin>
             <!--Button 2 (Cadastrar-se)-->
-            <TextColor x:key="Button2TxtColor">"#34A0CB"</TextColor>
-            <FontSize  x:key="Button2FntSiz">"17"</FontSize>
-            <BackgroundColor x:key="Button2BgColor">"Transparent"</BackgroundColor>
-            <VerticalOptions x key="Button2VertOptions">"EndAndExpand"</VerticalOptions>
+            <TextColor x:key="LV_Button2TxtColor">"#34A0CB"</TextColor>
+            <FontSize  x:key="LV_Button2FntSiz">"17"</FontSize>
+            <BackgroundColor x:key="LV_Button2BgColor">"Transparent"</BackgroundColor>
+            <VerticalOptions x key="LV_Button2VertOptions">"EndAndExpand"</VerticalOptions>
         
         </Resource.Dictionary>
     </ContentView.Resource>
     
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="{StaticResource StackLayoutBgColor}"
-            Padding="{StaticResource StackLayoutPadd}"
-            Spacing="{StaticResource StackLayoutSpac}"
+            BackgroundColor="{StaticResource LV_StackLayoutBgColor}"
+            Padding="{StaticResource LV_StackLayoutPadd}"
+            Spacing="{StaticResource LV_StackLayoutSpac}"
             >
-            <Image Source="{StaticResource ImageSour}"
-                   WidthRequest="{StaticResource ImageWidthReq}" 
-                   Margin="{StaticResource ImageMarg}"
+            <Image Source="{StaticResource LV_ImageSour}"
+                   WidthRequest="{StaticResource LV_ImageWidthReq}" 
+                   Margin="{StaticResource LV_ImageMarg}"
             />
 
             <Entry 
                     Placeholder="Usuário ou E-mail" 
-                    PlaceholderColor="{StaticResource PhColor}"
-                    VerticalOptions="{StaticResource VertOptions}" 
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor="{StaticResource LV_PhColor}"
+                    VerticalOptions="{StaticResource LV_VertOptions}" 
+                    HorizontalOptions="{StaticResource LV_EntryHorizOptions}"
+                    Margin="{StaticResource LV_EntryMarg}"
                 />
             <Entry 
                     Placeholder="Senha" 
-                    PlaceholderColor="{StaticResource PhColor}" 
-                    VerticalOptions="{StaticResource VertOptions}" 
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    IsPassword="{StaticResource EntryIsPass}"
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor="{StaticResource LV_PhColor}" 
+                    VerticalOptions="{StaticResource LV_VertOptions}" 
+                    HorizontalOptions="{StaticResource LV_EntryHorizOptions}"
+                    IsPassword="{StaticResource LV_EntryIsPass}"
+                    Margin="{StaticResource LV_EntryMarg}"
                 />
             <Button 
                     Text="Entrar" 
-                    BackgroundColor="{StaticResource Button1BgColor}" 
-                    TextColor="{StaticResource Button1TxtColor}"
-                    CornerRadius="{StaticResource Button1CornRad}" 
-                    Margin="{StaticResource Button1Marg}"
+                    BackgroundColor="{StaticResource LV_Button1BgColor}" 
+                    TextColor="{StaticResource LV_Button1TxtColor}"
+                    CornerRadius="{StaticResource LV_Button1CornRad}" 
+                    Margin="{StaticResource LV_Button1Marg}"
 
             <Button 
                Text="Cadastre-se"
-               TextColor="{StaticResource Button2TxtColor}"
-               FontSize="{StaticResource Button2FntSiz}"
-               BackgroundColor="{StaticResource Button2BgColor}"
-               VerticalOptions="{StaticResource Button2VertOptions}"
+               TextColor="{StaticResource LV_Button2TxtColor}"
+               FontSize="{StaticResource LV_Button2FntSiz}"
+               BackgroundColor="{StaticResource LV_Button2BgColor}"
+               VerticalOptions="{StaticResource LV_Button2VertOptions}"
              />
         </StackLayout>
     </ContentPage.Content>

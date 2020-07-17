@@ -7,32 +7,32 @@
              x:Class="WSTowers.Views.SplashScreen">
     
     <ContentView.Resource>
-        <Resource.Dictionary>
+        <Resource.Dictionary> SS_
             <!--StackLayout-->
-            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+            <BackgroundColor x:key="SS_StackLayoutBgColor">"#363636"</BackgroundColor>
              <!--Image-->
-            <Source x:key="ImageSour">"WS_Towers.png"</Source>
-            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
-            <Margin x key="ImageMarg">"100,310,100,30"</Margin>
+            <Source x:key="SS_ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="SS_ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="SS_ImageMarg">"100,310,100,30"</Margin>
             <!--ActivityIndicator-->
-            <IsRunning x:key="ActivIndiIsRunning">"true"</IsRunning>
-            <Color x:key="ActivIndiColor">"Snow"</Color>
+            <IsRunning x:key="SS_ActivIndiIsRunning">"true"</IsRunning>
+            <Color x:key="SS_ActivIndiColor">"Snow"</Color>
             
         </Resource.Dictionary>
     </ContentView.Resource>
     
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            BackgroundColor="{StaticResource SS_StackLayoutBgColor}"
             >
             <Image
-            Source="{StaticResource ImageSour}"
-            WidthRequest="{StaticResource ImageWidthReq}" 
-            Margin="{StaticResource ImageMarg}"
+            Source="{StaticResource SS_ImageSour}"
+            WidthRequest="{StaticResource SS_ImageWidthReq}" 
+            Margin="{StaticResource SS_ImageMarg}"
             />
             <ActivityIndicator 
-                IsRunning="{StaticResource ActivIndiIsRunning}"
-                Color="{StaticResource ActivIndiColor}"
+                IsRunning="{StaticResource SS_ActivIndiIsRunning}"
+                Color="{StaticResource SS_ActivIndiColor}"
              />
 
         </StackLayout>

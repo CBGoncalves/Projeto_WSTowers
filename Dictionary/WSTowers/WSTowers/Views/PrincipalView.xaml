@@ -8,15 +8,16 @@
     <ContentView.Resource>
         <Resource.Dictionary>
             <!--StackLayout-->
-            <Orientation x key="StackLayoutOrient">"Horizontal"</Orientation>
+            <Orientation x key="PV_StackLayoutOrient">"Horizontal"</Orientation>
             <!--Image-->
-            <Source x:key="ImageSPFCSour">"LogoSaoPaulo.png"</Source>
-            <Source x:key="ImageGECSour">"LogoGoias.png"</Source>
+            <Source x:key="PV_ImageSPFCSour">"LogoSaoPaulo.png"</Source>
+            <Source x:key="PV_ImageGECSour">"LogoGoias.png"</Source>
             <!--Label-->
-            <HorizontalOptions x key="LabelCasaHorizOptions">"StartAndExpand"</HorizontalOptions>
-            <HorizontalOptions x key="LabelVSHorizOptions">"CenterAndExpand"</HorizontalOptions>
-            <HorizontalOptions x key="LabelVisitanteHorizOptions">"EndAndExpand"</HorizontalOptions>
-            <VerticalOptons x key="LabelVertOptions">CenterAndExpand</VerticalOptons>
+            <HorizontalOptions x key="PV_LabelCasaHorizOptions">"StartAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="PV_LabelVSHorizOptions">"CenterAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="PV_LabelVisitanteHorizOptions">"EndAndExpand"</HorizontalOptions>
+            <VerticalOptons x key="PV_LabelVertOptions">CenterAndExpand</VerticalOptons>
+            
         </Resource.Dictionary>
     </ContentView.Resource>
     
@@ -27,28 +28,28 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout
-                                Orientation= "{StaticResource StackLayoutOrient}"
+                                Orientation= "{StaticResource PV_StackLayoutOrient}"
                                 >
                                 <Image 
-                                    Source="{StaticResource ImageSPFCSour}"
+                                    Source="{StaticResource PV_ImageSPFCSour}"
                                 <Label
                                     Text="{Binding timeCasa}"
-                                    HorizontalOptions="{StaticResource LabelCasaHorizOptions}"
-                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                    HorizontalOptions="{StaticResource PV_LabelCasaHorizOptions}"
+                                    VerticalOptions="{StaticResource PV_LabelVertOptions}"
                                 />
                                 <Label
                                     Text="X"
-                                    HorizontalOptions="{StaticResource LabelVSHorizOptions}"
-                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                    HorizontalOptions="{StaticResource PV_LabelVSHorizOptions}"
+                                    VerticalOptions="{StaticResource PV_LabelVertOptions}"
                                 />
                                 
                                 <Label
                                     Text="{Binding timeVisitante}"
-                                    HorizontalOptions="{StaticResource LabelVisitanteHorizOptions}"
-                                    VerticalOptions="{StaticResource LabelVertOptions}"
+                                    HorizontalOptions="{StaticResource PV_LabelVisitanteHorizOptions}"
+                                    VerticalOptions="{StaticResource PV_LabelVertOptions}"
                                 />
                                 <Image 
-                                    Source="{StaticResource ImageGECSour}"
+                                    Source="{StaticResource PV_ImageGECSour}"
                             </StackLayout>
 
                         </ViewCell>

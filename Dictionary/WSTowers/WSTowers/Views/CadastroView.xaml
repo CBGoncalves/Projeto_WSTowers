@@ -9,90 +9,90 @@
     <ContentView.Resource>
         <Resource.Dictionary>
             <!--StackLayout-->
-            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
-            <Padding x:key="StackLayoutPadd">"20"</Padding>
-            <spacing x:key="StackLayoutSpac">"20"</spacing>
+            <BackgroundColor x:key="CV_StackLayoutBgColor">"#363636"</BackgroundColor>
+            <Padding x:key="CV_StackLayoutPadd">"20"</Padding>
+            <spacing x:key="CV_StackLayoutSpac">"20"</spacing>
             <!--Image-->
-            <Source x:key="ImageSour">"WS_Towers.png"</Source>
-            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
-            <Margin x key="ImageMarg">"50,160,50,0"</Margin>
+            <Source x:key="CV_ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="CV_ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="CV_ImageMarg">"50,160,50,0"</Margin>
             <!--Entry-->
-            <PlaceholderColor x:key="EntryPhColor">"#c2c2c2"</PlaceholderColor>
-            <VerticalOptions x key="EntryVertOptions">"Center"</VerticalOptions>
-            <HorizontalOptions x key="EntryHorizOptions">"FillAndExpand"</HorizontalOptions>
-            <Margin x key="EntryMarg">"50,20,50,0"</Margin>
-            <IsPassword x key="EntryIsPass">True</IsPassword>
+            <PlaceholderColor x:key="CV_EntryPhColor">"#c2c2c2"</PlaceholderColor>
+            <VerticalOptions x key="CV_EntryVertOptions">"Center"</VerticalOptions>
+            <HorizontalOptions x key="CV_EntryHorizOptions">"FillAndExpand"</HorizontalOptions>
+            <Margin x key="CV_EntryMarg">"50,20,50,0"</Margin>
+            <IsPassword x key="CV_EntryIsPass">True</IsPassword>
             <!--Button1 (Cadastrar-se)-->
-            <BackgroundColor x:key="Button1BgColor">"#8a05be"</BackgroundColor>
-            <TextColor x:key="Button1TxtColor">"#eaeaea"</TextColor>
-            <CornerRadius  x:key="Button1CornRad">10</CornerRadius>
-            <Margin x key="Button1Marg">"100,0,100,0"</Margin>
+            <BackgroundColor x:key="CV_Button1BgColor">"#8a05be"</BackgroundColor>
+            <TextColor x:key="CV_Button1TxtColor">"#eaeaea"</TextColor>
+            <CornerRadius  x:key="CV_Button1CornRad">10</CornerRadius>
+            <Margin x key="CV_Button1Marg">"100,0,100,0"</Margin>
             <!--Button 2 (Login)-->
-            <TextColor x:key="Button2TxtColor">"#34A0CB"</TextColor>
-            <FontSize  x:key="Button2FntSiz">"17"</FontSize>
-            <BackgroundColor x:key="Button2BgColor">"Transparent"</BackgroundColor>
-            <VerticalOptions x key="Button2VertOptions">"EndAndExpand"</VerticalOptions>
+            <TextColor x:key="CV_Button2TxtColor">"#34A0CB"</TextColor>
+            <FontSize  x:key="CV_Button2FntSiz">"17"</FontSize>
+            <BackgroundColor x:key="CV_Button2BgColor">"Transparent"</BackgroundColor>
+            <VerticalOptions x key="CV_Button2VertOptions">"EndAndExpand"</VerticalOptions>
             
     </ContentView.Resource>
     
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="{StaticResource StackLayoutBgColor}"
-            Padding="{StaticResource StackLayoutPadd}"
-            Spacing="{StaticResource StackLayoutSpac}"
+            BackgroundColor="{StaticResource CV_StackLayoutBgColor}"
+            Padding="{StaticResource CV_StackLayoutPadd}"
+            Spacing="{StaticResource CV_StackLayoutSpac}"
             >
             <Image 
-            Source="{StaticResource ImageSour}"
-            WidthRequest="{StaticResource ImageWidthReq}" 
-            Margin="{StaticResource ImageMarg}"
+            Source="{StaticResource CV_ImageSour}"
+            WidthRequest="{StaticResource CV_ImageWidthReq}" 
+            Margin="{StaticResource CV_ImageMarg}"
             />
 
             <Entry 
                     Placeholder="Nome" 
-                    PlaceholderColor= "{StaticResource EntryPhColor}" 
-                    VerticalOptions="{StaticResource EntryVertOptions}"
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    IsPassword="{StaticResource EntryIsPass}"
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor= "{StaticResource CV_EntryPhColor}" 
+                    VerticalOptions="{StaticResource CV_EntryVertOptions}"
+                    HorizontalOptions="{StaticResource CV_EntryHorizOptions}"
+                    IsPassword="{StaticResource CV_EntryIsPass}"
+                    Margin="{StaticResource CV_EntryMarg}"
                 />
             <Entry 
                     Placeholder="Apelido"
-                    PlaceholderColor="{StaticResource EntryPhColor}"
-                    VerticalOptions="{StaticResource EntryVertOptions}" 
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor="{StaticResource CV_EntryPhColor}"
+                    VerticalOptions="{StaticResource CV_EntryVertOptions}" 
+                    HorizontalOptions="{StaticResource CV_EntryHorizOptions}"
+                    Margin="{StaticResource CV_EntryMarg}"
                 />
             <Entry 
                     Placeholder="E-Mail" 
-                    PlaceholderColor="{StaticResource EntryPhColor}"  
-                    VerticalOptions="{StaticResource EntryVertOptions}"
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    IsPassword="{StaticResource EntryIsPass}" 
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor="{StaticResource CV_EntryPhColor}"  
+                    VerticalOptions="{StaticResource CV_EntryVertOptions}"
+                    HorizontalOptions="{StaticResource CV_EntryHorizOptions}"
+                    IsPassword="{StaticResource CV_EntryIsPass}" 
+                    Margin="{StaticResource CV_EntryMarg}"
                 />
             <Entry 
                     Placeholder="Senha" 
-                    PlaceholderColor="{StaticResource EntryPhColor}"
-                    VerticalOptions="{StaticResource EntryVertOptions}"
-                    HorizontalOptions="{StaticResource EntryHorizOptions}"
-                    IsPassword="{StaticResource EntryIsPass}" 
-                    Margin="{StaticResource EntryMarg}"
+                    PlaceholderColor="{StaticResource CV_EntryPhColor}"
+                    VerticalOptions="{StaticResource CV_EntryVertOptions}"
+                    HorizontalOptions="{StaticResource CV_EntryHorizOptions}"
+                    IsPassword="{StaticResource CV_EntryIsPass}" 
+                    Margin="{StaticResource CV_EntryMarg}"
                 />
 
             <Button 
                     Text="Cadastrar-se" 
-                    BackgroundColor="{StaticResource Button1BgColor}" 
-                    TextColor="{StaticResource Button1TxtColor}"
-                    CornerRadius="{StaticResource Button1CornRad}" 
-                    Margin="{StaticResource Button1Marg}"
+                    BackgroundColor="{StaticResource CV_Button1BgColor}" 
+                    TextColor="{StaticResource CV_Button1TxtColor}"
+                    CornerRadius="{StaticResource CV_Button1CornRad}" 
+                    Margin="{StaticResource CV_Button1Marg}"
                 />
 
             <Button 
                Text="Login"
-               TextColor="{StaticResource Button2TxtColor}"
-               FontSize="{StaticResource Button2FntSiz}"
-               BackgroundColor="{StaticResource Button2BgColor}"
-               VerticalOptions="{StaticResource Button2VertOptions}"
+               TextColor="{StaticResource CV_Button2TxtColor}"
+               FontSize="{StaticResource CV_Button2FntSiz}"
+               BackgroundColor="{StaticResource CV_Button2BgColor}"
+               VerticalOptions="{StaticResource CV_Button2VertOptions}"
              />
         </StackLayout>
     </ContentPage.Content>
