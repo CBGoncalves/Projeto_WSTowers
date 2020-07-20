@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.DetalhesView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#363636">
+            <Label Text="Jogadores"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="#8a05be"
+                   FontSize="40"
+                   FontFamily="Gotham"
+                   />
+            
+            <ListView ItemsSource="{Binding Jogadores}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            
+                            <StackLayout
+                                Orientation="Horizontal">
+                                
+                                <Label
+                                    TextColor="#fff"
+                                    Text="{Binding Time}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    
+                                 />
+
+                                <Label
+                                    TextColor="#fff"
+                                    Text="{Binding Nome}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    
+                                 />
+                                <Label
+                                    TextColor="#fff"
+                                    Text="{Binding Numero}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    
+                                 />
+                                <Label
+                                    TextColor="#fff"
+                                    Text="{Binding Posicao}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    
+                                 />
+
+
+
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
