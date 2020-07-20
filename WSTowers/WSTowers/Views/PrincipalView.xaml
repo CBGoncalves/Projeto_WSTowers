@@ -9,7 +9,8 @@
     <ContentPage Title="Jogos">
         <ContentPage.Content>
             <StackLayout BackgroundColor="#363636">
-                <ListView ItemsSource="{Binding Jogos}">
+                <ListView ItemsSource="{Binding Jogos}"
+                          ItemSelected="OnListViewItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

@@ -42,5 +42,10 @@ namespace WSTowers.Views
 
             BindingContext = this;
         }
+
+        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new DetalhesView { });
+        }
     }
 }
