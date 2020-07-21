@@ -20,9 +20,10 @@
                     Placeholder="Nome" 
                     PlaceholderColor="#c2c2c2" 
                     VerticalOptions="Center" 
-                    HorizontalOptions="FillAndExpand"
-                    IsPassword="True" 
+                    HorizontalOptions="FillAndExpand" 
                     Margin="50,20,50,0"
+                    x:Name="txtNome"
+                TextColor="White"
                 />
             <Entry 
                     Placeholder="Apelido"
@@ -30,14 +31,17 @@
                     VerticalOptions="Center" 
                     HorizontalOptions="FillAndExpand"
                     Margin="50,20,50,0"
+                    x:Name="txtApelido"
+                    TextColor="White"
                 />
             <Entry 
                     Placeholder="E-Mail" 
                     PlaceholderColor="#c2c2c2"  
                     VerticalOptions="Center" 
                     HorizontalOptions="FillAndExpand"
-                    IsPassword="True" 
                     Margin="50,20,50,0"
+                    x:Name="txtEmail"
+                TextColor="White"
                 />
             <Entry 
                     Placeholder="Senha" 
@@ -46,6 +50,8 @@
                     HorizontalOptions="FillAndExpand"
                     IsPassword="True" 
                     Margin="50,20,50,0"
+                    x:Name="txtSenha"
+                TextColor="White"
                 />
 
             <Button 
@@ -54,6 +60,7 @@
                     TextColor="#eaeaea" 
                     CornerRadius="10" 
                     Margin="100,0,100,0"
+                    Clicked="BtnCadastro_Clicked"
                 />
 
             <Button 
