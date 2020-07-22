@@ -20,7 +20,23 @@ namespace WSTowers.Views
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage(new PrincipalView());
+            /*{
+                Usuario usuario = UsuarioRepository.Login(txtEmail.Text, txtSenha.Text);
+
+                if (usuario != null && usuario.Email == txtEmail.Text && usuario.Senha == txtSenha.Text)
+                {
+                    App.UsuarioLogado = true;
+                    Navigation.InsertPageBefore(new PrincipalView(), this);
+                    await Navigation.PopAsync();
+                }
+                else
+                {
+                    await DisplayAlert("Erro", "Dados não congruentes", "Ok");
+                    txtSenha.Text = string.Empty;
+                    txtEmail.Text = string.Empty;
+                }
+            }
+            */
         }
 
         private void btnCadastro_Clicked(object sender, EventArgs e)

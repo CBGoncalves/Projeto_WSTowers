@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "R7FB+Ad38NbT21/QQbp5UBLkzXkAYuOVV7wPXW3kghpDn2+haGJsr6VVg+FZX09/jhwCPvqVjroJRIF9MZ3NiA==",
+  "dgSpecHash": "N6RlTh62qrrajygGM5NgGxU+0zs9FLLBuELZXnlGgDOGrXCj6MQe3anr2teKD/mjRT3/34w0PqDKHyeYH/MMVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projeto_WSTowers\\WSTowers\\WSTowers\\WSTowers.csproj",
+  "projectFilePath": "C:\\Users\\nsilv\\Documents\\Projeto_WSTowers\\WSTowers\\WSTowers\\WSTowers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\nsilv\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],

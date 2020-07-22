@@ -12,6 +12,11 @@ namespace WSTowers.Repository
         public void Adicionar(Usuario usuario)
         {
             Usuarios.Add(usuario);
+        }/*
+        public Usuario Login(string Email, string Senha)
+        {
+            return Usuarios.Find(u => u.Email == Email && u.Senha == Senha);
         }
+        */
     }
 }
