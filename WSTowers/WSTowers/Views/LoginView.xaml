@@ -22,6 +22,7 @@
                     HorizontalOptions="FillAndExpand"
                     Margin="50,20,50,0"
                     x:Name="txtEmail"
+                    TextColor="White"
                 />
             <Entry 
                     Placeholder="Senha" PlaceholderColor="#c2c2c2" 
@@ -30,6 +31,7 @@
                     IsPassword="True" 
                     Margin="50,0,50,0"
                      x:Name="txtSenha"
+                    TextColor="White"                
                 />
             <Button 
                     Clicked="btnLogin_Clicked"

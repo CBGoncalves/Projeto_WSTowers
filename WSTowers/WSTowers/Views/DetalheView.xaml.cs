@@ -16,7 +16,7 @@ namespace WSTowers.Views
         public DetalhesView()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, true);
 
             Jogadores = new List<Elenco>();
             Jogadores.Add(new Elenco

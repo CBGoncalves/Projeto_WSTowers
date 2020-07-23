@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:WSTowers.Views;assembly=WSTowers" 
              mc:Ignorable="d"
-             x:Class="WSTowers.Views.PrincipalView">
+             x:Class="WSTowers.Views.PrincipalView"
+             Title="Perfil">
     
     <ContentPage Title="Jogos">
         <ContentPage.Content>
@@ -40,7 +41,7 @@
                                 />
                                     <Image Source="LogoGoias.png"/>
                                 </StackLayout>
-
+                                   
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
