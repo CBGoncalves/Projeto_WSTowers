@@ -17,10 +17,11 @@
             />
 
             <Entry 
-                    Placeholder="Usuário ou E-mail" PlaceholderColor="#c2c2c2" 
+                    Placeholder="E-mail" PlaceholderColor="#c2c2c2" 
                     VerticalOptions="Center" 
                     HorizontalOptions="FillAndExpand"
                     Margin="50,20,50,0"
+                    x:Name="txtEmail"
                 />
             <Entry 
                     Placeholder="Senha" PlaceholderColor="#c2c2c2" 
@@ -28,6 +29,7 @@
                     HorizontalOptions="FillAndExpand"
                     IsPassword="True" 
                     Margin="50,0,50,0"
+                     x:Name="txtSenha"
                 />
             <Button 
                     Clicked="btnLogin_Clicked"

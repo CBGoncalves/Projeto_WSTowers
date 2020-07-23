@@ -14,7 +14,7 @@ namespace WSTowers.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadastroView : ContentPage
     {
-        private static IList<Usuario> Usuarios;
+        
         public CadastroView()
         {
             InitializeComponent();
@@ -28,8 +28,7 @@ namespace WSTowers.Views
 
         private async void BtnCadastro_Clicked(object sender, EventArgs e)
         {
-            if(Usuarios == null)
-            {
+           
                 UsuarioRepository usuarioRepository = new UsuarioRepository();
 
                 if (string.IsNullOrEmpty(txtNome.Text))
@@ -63,13 +62,14 @@ namespace WSTowers.Views
                     Email = txtEmail.Text,
                     Senha = txtSenha.Text,
                     
-                };
+                };usuarioRepository.Adicionar(usuario);
 
                 await DisplayAlert("SUCESSO", "Usuário cadastrado com sucesso.", "OK");
+                await Navigation.PopAsync();
 
 
 
-            }
+            
         }
     }
 }

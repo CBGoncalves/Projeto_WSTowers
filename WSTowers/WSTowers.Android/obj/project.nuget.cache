@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/FJO+Jlt5WfUAoo/SgRLwpcRCX+xqVOZzPaZ+vay8lP5rVWFdXgN7PQXD7jkaA20oChISsbGQp67E4Vcy65o7A==",
+  "dgSpecHash": "8wAHFE+TRo8JbX500maTMjzRE8wy2L6WOkeBYE28qcqf7Dox921lwhvH9g3Nfg83drDakHqtL3O1ktv5vv+aBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nsilv\\Documents\\Projeto_WSTowers\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projeto_WSTowers\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nsilv\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
