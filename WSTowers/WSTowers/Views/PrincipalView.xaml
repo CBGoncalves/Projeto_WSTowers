@@ -10,6 +10,17 @@
     <ContentPage Title="Jogos">
         <ContentPage.Content>
             <StackLayout BackgroundColor="#363636">
+                <Image Source="WS_Towers.png" 
+                   WidthRequest="250" 
+                   Margin="50,0,50,0"
+                />
+                <Label Text="Próximos Jogos"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="#eaeaea"
+                   FontSize="20"
+                   FontFamily="Gotham"
+                   />
+                
                 <ListView ItemsSource="{Binding Jogos}"
                           ItemSelected="OnListViewItemSelected">
                     <ListView.ItemTemplate>

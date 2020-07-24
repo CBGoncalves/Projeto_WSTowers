@@ -7,10 +7,16 @@
              x:Class="WSTowers.Views.DetalhesView">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#363636">
+
+            <Image Source="WS_Towers.png" 
+                   WidthRequest="250" 
+                   Margin="50,0,50,0"
+            />
+
             <Label Text="Jogadores"
                    HorizontalOptions="CenterAndExpand"
-                   TextColor="#8a05be"
-                   FontSize="40"
+                   TextColor="#eaeaea"
+                   FontSize="20"
                    FontFamily="Gotham"
                    />
             

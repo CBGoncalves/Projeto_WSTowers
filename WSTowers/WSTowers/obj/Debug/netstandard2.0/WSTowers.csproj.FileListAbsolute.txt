@@ -75,3 +75,27 @@ C:\Users\user\Documents\Ana Laura\Senai\Projeto_WSTowers\WSTowers\WSTowers\obj\D
 C:\Users\user\Documents\Ana Laura\Senai\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.dll
 C:\Users\user\Documents\Ana Laura\Senai\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\ref\WSTowers.dll
 C:\Users\user\Documents\Ana Laura\Senai\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.pdb
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.deps.json
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.dll
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\ref\WSTowers.dll
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.pdb
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.csprojAssemblyReference.cache
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\DetalheView.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\PrincipalView.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\SobreView.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\SplashScreen.xaml.g.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.AssemblyInfo.cs
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.dll
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\ref\WSTowers.dll
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.pdb
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\vinic\Desktop\SENAI\Projeto_WSTowers\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.csproj.CopyComplete
